@@ -1,0 +1,13 @@
+$body-color: blue;
+
+body {
+  color: $body-color;
+}
+
+a {
+  color: red;
+
+  &:hover {
+    color: black;
+  }
+}
